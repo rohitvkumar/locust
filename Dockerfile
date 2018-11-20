@@ -9,4 +9,4 @@ RUN mkdir /locust
 WORKDIR /locust
 EXPOSE 5557 5558 8089
 
-ENTRYPOINT ["/usr/bin/locust"]
+ENTRYPOINT ["/usr/local/bin/locust"]
